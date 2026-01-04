@@ -1,0 +1,6 @@
+pair_en,pair_zh,pair_de,category,description,expected_ra_en,expected_ra_zh
+'push' -> 'fall','推' -> '倒','schieben' -> 'fallen',cause_effect,Cause and effect pairs,Very Low (no morphological relation),Low-Medium (some compositional hints)
+'heat' -> 'boil','加热' -> '沸腾','erhitzen' -> 'kochen',cause_effect,Cause and effect pairs,Very Low (no morphological relation),Low-Medium (some compositional hints)
+'cut' -> 'bleed','切' -> '流血','schneiden' -> 'bluten',cause_effect,Cause and effect pairs,Very Low (no morphological relation),Low-Medium (some compositional hints)
+'rain' -> 'wet','下雨' -> '湿','regnen' -> 'nass',cause_effect,Cause and effect pairs,Very Low (no morphological relation),Low-Medium (some compositional hints)
+'eat' -> 'full','吃' -> '饱','essen' -> 'satt',cause_effect,Cause and effect pairs,Very Low (no morphological relation),Low-Medium (some compositional hints)

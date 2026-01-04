@@ -1,0 +1,6 @@
+pair_en,pair_zh,pair_de,category,description,expected_ra_en,expected_ra_zh
+'warm' -> 'hot','温暖' -> '炎热','warm' -> 'heiß',intensity_gradation,Intensity pairs (weak → strong),Very Low (different words),Medium (some morphological patterns)
+'cool' -> 'cold','凉爽' -> '寒冷','kühl' -> 'kalt',intensity_gradation,Intensity pairs (weak → strong),Very Low (different words),Medium (some morphological patterns)
+'like' -> 'love','喜欢' -> '热爱','mögen' -> 'lieben',intensity_gradation,Intensity pairs (weak → strong),Very Low (different words),Medium (some morphological patterns)
+'dislike' -> 'hate','不喜欢' -> '讨厌','nicht mögen' -> 'hassen',intensity_gradation,Intensity pairs (weak → strong),Very Low (different words),Medium (some morphological patterns)
+'good' -> 'excellent','好' -> '优秀','gut' -> 'ausgezeichnet',intensity_gradation,Intensity pairs (weak → strong),Very Low (different words),Medium (some morphological patterns)

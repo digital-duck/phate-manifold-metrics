@@ -1,0 +1,6 @@
+pair_en,pair_zh,pair_de,category,description,expected_ra_en,expected_ra_zh
+'father' -> 'mother','父亲' -> '母亲','Vater' -> 'Mutter',kinship_relations,Family relationship pairs,Low (unrelated words),High (父/母 components)
+'son' -> 'daughter','儿子' -> '女儿','Sohn' -> 'Tochter',kinship_relations,Family relationship pairs,Low (unrelated words),High (compositional)
+'brother' -> 'sister','兄弟' -> '姐妹','Bruder' -> 'Schwester',kinship_relations,Family relationship pairs,Low (unrelated words),High (compositional)
+'uncle' -> 'aunt','叔叔' -> '阿姨','Onkel' -> 'Tante',kinship_relations,Family relationship pairs,Low (unrelated words),High (compositional)
+'grandfather' -> 'grandmother','祖父' -> '祖母','Großvater' -> 'Großmutter',kinship_relations,Family relationship pairs,Low (unrelated words),High (祖+父/母)

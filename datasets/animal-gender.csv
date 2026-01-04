@@ -1,0 +1,6 @@
+pair_en,pair_zh,pair_de,category,description,expected_ra_en,expected_ra_zh
+'bull' -> 'cow','公牛' -> '母牛','Stier' -> 'Kuh',gender_morphology,Animal gender pairs,Low (irregular),High (compositional: 公/母 prefix)
+'rooster' -> 'hen','公鸡' -> '母鸡','Hahn' -> 'Henne',gender_morphology,Animal gender pairs,Low (irregular),High (compositional: 公/母 prefix)
+'stallion' -> 'mare','公马' -> '母马','Hengst' -> 'Stute',gender_morphology,Animal gender pairs,Low (irregular),High (compositional: 公/母 prefix)
+'ram' -> 'ewe','公羊' -> '母羊','Widder' -> 'Mutterschaf',gender_morphology,Animal gender pairs,Low (irregular),High (compositional: 公/母 prefix)
+'lion' -> 'lioness','公狮' -> '母狮','Löwe' -> 'Löwin',gender_morphology,Animal gender pairs,Low (irregular),High (compositional: 公/母 prefix)

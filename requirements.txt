@@ -1,0 +1,8 @@
+phate
+click
+scipy
+pandas
+numpy
+sentence_transformers
+fasttext
+requests

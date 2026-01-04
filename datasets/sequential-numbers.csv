@@ -1,0 +1,6 @@
+pair_en,pair_zh,pair_de,category,description,expected_ra_en,expected_ra_zh
+'one' -> 'two','一' -> '二','eins' -> 'zwei',sequential_relations,Number pairs testing ordinal understanding,Low (irregular: one→two),High (compositional: 一→二)
+'three' -> 'four','三' -> '四','drei' -> 'vier',sequential_relations,Number pairs testing ordinal understanding,Low (irregular),High (compositional)
+'five' -> 'six','五' -> '六','fünf' -> 'sechs',sequential_relations,Number pairs testing ordinal understanding,Low (irregular),High (compositional)
+'seven' -> 'eight','七' -> '八','sieben' -> 'acht',sequential_relations,Number pairs testing ordinal understanding,Low (irregular),High (compositional)
+'nine' -> 'ten','九' -> '十','neun' -> 'zehn',sequential_relations,Number pairs testing ordinal understanding,Low (irregular),High (compositional) 

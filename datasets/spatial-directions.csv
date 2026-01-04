@@ -1,0 +1,6 @@
+pair_en,pair_zh,pair_de,category,description,expected_ra_en,expected_ra_zh
+'up' -> 'down','上' -> '下','oben' -> 'unten',spatial_opposites,Spatial direction opposites,Medium (some patterns),High (antonym characters)
+'left' -> 'right','左' -> '右','links' -> 'rechts',spatial_opposites,Spatial direction opposites,Medium (unrelated words),High (antonym characters)
+'north' -> 'south','北' -> '南','Nord' -> 'Süd',spatial_opposites,Spatial direction opposites,Medium (some patterns),High (antonym characters)
+'east' -> 'west','东' -> '西','Ost' -> 'West',spatial_opposites,Spatial direction opposites,Medium (unrelated words),High (antonym characters)
+'front' -> 'back','前' -> '后','vorne' -> 'hinten',spatial_opposites,Spatial direction opposites,Medium (unrelated words),High (antonym characters)

@@ -1,0 +1,6 @@
+pair_en,pair_zh,pair_de,category,description,expected_ra_en,expected_ra_zh
+'red' -> 'orange','红' -> '橙','rot' -> 'orange',color_spectrum,Adjacent colors in spectrum,Low (arbitrary color names),Low (arbitrary characters)
+'orange' -> 'yellow','橙' -> '黄','orange' -> 'gelb',color_spectrum,Adjacent colors in spectrum,Low (arbitrary color names),Low (arbitrary characters)
+'yellow' -> 'green','黄' -> '绿','gelb' -> 'grün',color_spectrum,Adjacent colors in spectrum,Low (arbitrary color names),Low (arbitrary characters)
+'green' -> 'blue','绿' -> '蓝','grün' -> 'blau',color_spectrum,Adjacent colors in spectrum,Low (arbitrary color names),Low (arbitrary characters)
+'blue' -> 'purple','蓝' -> '紫','blau' -> 'lila',color_spectrum,Adjacent colors in spectrum,Low (arbitrary color names),Low (arbitrary characters)

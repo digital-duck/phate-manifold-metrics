@@ -1,0 +1,6 @@
+pair_en,pair_zh,pair_de,category,description,expected_ra_en,expected_ra_zh
+'big' -> 'small','大' -> '小','groß' -> 'klein',spatial_scalar,Size opposites,Low (irregular words),High (antonym pairs)
+'large' -> 'tiny','巨' -> '微','riesig' -> 'winzig',spatial_scalar,Size opposites,Low (irregular words),High (antonym pairs)
+'tall' -> 'short','高' -> '矮','hoch' -> 'kurz',spatial_scalar,Size opposites,Low (irregular words),High (antonym pairs)
+'wide' -> 'narrow','宽' -> '窄','breit' -> 'schmal',spatial_scalar,Size opposites,Low (irregular words),High (antonym pairs)
+'thick' -> 'thin','厚' -> '薄','dick' -> 'dünn',spatial_scalar,Size opposites,Low (irregular words),High (antonym pairs)

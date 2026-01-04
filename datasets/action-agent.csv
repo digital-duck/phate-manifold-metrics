@@ -1,0 +1,6 @@
+pair_en,pair_zh,pair_de,category,description,expected_ra_en,expected_ra_zh
+'teach' -> 'teacher','教' -> '教师','lehren' -> 'Lehrer',action_agent,Action and agent pairs (verb → doer),High (consistent -er suffix),High (consistent 师 suffix)
+'write' -> 'writer','写' -> '作家','schreiben' -> 'Schriftsteller',action_agent,Action and agent pairs (verb → doer),High (consistent -er suffix),High (consistent 家 suffix)
+'paint' -> 'painter','画' -> '画家','malen' -> 'Maler',action_agent,Action and agent pairs (verb → doer),High (consistent -er suffix),High (consistent 家 suffix)
+'sing' -> 'singer','唱' -> '歌手','singen' -> 'Sänger',action_agent,Action and agent pairs (verb → doer),High (consistent -er suffix),High (consistent 手 suffix)
+'dance' -> 'dancer','跳舞' -> '舞者','tanzen' -> 'Tänzer',action_agent,Action and agent pairs (verb → doer),High (consistent -er suffix),High (consistent 者 suffix)

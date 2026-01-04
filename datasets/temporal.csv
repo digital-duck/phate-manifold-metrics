@@ -1,0 +1,6 @@
+pair_en,pair_zh,pair_de,category,description,expected_ra_en,expected_ra_zh
+'past' -> 'future','过去' -> '未来','Vergangenheit' -> 'Zukunft',temporal_relations,Temporal relation pairs,Low (irregular words),High (compositional: 过去/未来)
+'yesterday' -> 'tomorrow','昨天' -> '明天','gestern' -> 'morgen',temporal_relations,Temporal relation pairs,Low (irregular words),High (昨天/明天 share 天)
+'morning' -> 'evening','早上' -> '晚上','Morgen' -> 'Abend',temporal_relations,Temporal relation pairs,Low (irregular words),High (早上/晚上 share 上)
+'begin' -> 'end','开始' -> '结束','Anfang' -> 'Ende',temporal_relations,Temporal relation pairs,Low (irregular words),High (compositional)
+'before' -> 'after','之前' -> '之后','vorher' -> 'nachher',temporal_relations,Temporal relation pairs,Low (irregular words),High (之前/之后 share pattern)

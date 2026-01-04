@@ -1,0 +1,6 @@
+pair_en,pair_zh,pair_de,category,description,expected_ra_en,expected_ra_zh
+'Monday' -> 'Tuesday','星期一' -> '星期二','Montag' -> 'Dienstag',temporal_sequence,Weekday sequence pairs,Low (irregular names),Very High (星期+number pattern)
+'Tuesday' -> 'Wednesday','星期二' -> '星期三','Dienstag' -> 'Mittwoch',temporal_sequence,Weekday sequence pairs,Low (irregular names),Very High (星期+number pattern)
+'Wednesday' -> 'Thursday','星期三' -> '星期四','Mittwoch' -> 'Donnerstag',temporal_sequence,Weekday sequence pairs,Low (irregular names),Very High (星期+number pattern)
+'Thursday' -> 'Friday','星期四' -> '星期五','Donnerstag' -> 'Freitag',temporal_sequence,Weekday sequence pairs,Low (irregular names),Very High (星期+number pattern)
+'Friday' -> 'Saturday','星期五' -> '星期六','Freitag' -> 'Samstag',temporal_sequence,Weekday sequence pairs,Low (irregular names),Very High (星期+number pattern)
