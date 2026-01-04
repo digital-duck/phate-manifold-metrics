@@ -778,7 +778,7 @@ def calculate_ms_ra_metrics(models, datasets, knn, t, output, clear_cache):
             click.echo("\n")
 
         click.secho("╔══════════════════════════════════════════════════════════════════════╗", fg='bright_blue')
-        click.secho("║         PHATE MANIFOLD METRICS: DUAL-METRIC ANALYSIS                ║", fg='bright_blue', bold=True)
+        click.secho("║         PHATE MANIFOLD METRICS:                                      ║", fg='bright_blue', bold=True)
         click.secho("╚══════════════════════════════════════════════════════════════════════╝", fg='bright_blue')
 
         if len(dataset_list) > 1:
@@ -804,7 +804,7 @@ def calculate_ms_ra_metrics(models, datasets, knn, t, output, clear_cache):
 
             try:
                 for lang, words in [("EN", words_en), ("ZH", words_zh)]:
-                    click.echo(f"  ├─ Auditing {lang}... ", nl=False)
+                    click.echo(f"  ├─ Analyzing {lang}... ", nl=False)
 
                     # Try loading FastText (extracted vocab > full model > ERROR)
                     lang_code = 'en' if lang == 'EN' else 'zh'
@@ -864,7 +864,7 @@ def calculate_ms_ra_metrics(models, datasets, knn, t, output, clear_cache):
             click.secho("▶ ERA 2: BERT Manifold (LaBSE 768D)", fg='yellow', bold=True)
             try:
                 for lang, words in [("EN", words_en), ("ZH", words_zh)]:
-                    click.echo(f"  ├─ Auditing {lang}... ", nl=False)
+                    click.echo(f"  ├─ Analyzing {lang}... ", nl=False)
 
                     embs = load_labse_embeddings(words)
                     metrics = PhateMetrics(knn=knn, t=t).fit(embs).compute_all_metrics(indices, embs)
@@ -918,7 +918,7 @@ def calculate_ms_ra_metrics(models, datasets, knn, t, output, clear_cache):
 
                     try:
                         for lang, words in [("EN", words_en), ("ZH", words_zh)]:
-                            click.echo(f"  ├─ Auditing {lang}... ", nl=False)
+                            click.echo(f"  ├─ Analyzing {lang}... ", nl=False)
 
                             embs = get_ollama_embeddings_fixed(words, model_name=model_to_use)
                             metrics = PhateMetrics(knn=knn, t=t).fit(embs).compute_all_metrics(indices, embs)
@@ -947,9 +947,9 @@ def calculate_ms_ra_metrics(models, datasets, knn, t, output, clear_cache):
             df = pd.DataFrame(results)
 
             click.secho("┌────────────────────────────────────────────────────────────────────────┐", fg='bright_blue')
-            click.secho("│                       DUAL-METRIC AUDIT REPORT                         │", fg='bright_blue', bold=True)
+            click.secho("│                       MS-RA-METRICS REPORT                             │", fg='bright_blue', bold=True)
             click.secho("├────────────────────────────────────────────────────────────────────────┤", fg='bright_blue')
-            click.secho("│  MS = Manifold Similarity (↑ better) | RA = Relational Affinity       │", fg='cyan')
+            click.secho("│  MS = Manifold Similarity | RA = Relational Affinity   (↑ better)      │", fg='cyan')
             click.secho("├────────────────────────────────────────────────────────────────────────┤", fg='bright_blue')
 
             # Table header
